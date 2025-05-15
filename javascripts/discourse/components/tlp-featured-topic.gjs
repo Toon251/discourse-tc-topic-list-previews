@@ -63,7 +63,7 @@ export default class TlpFeaturedTopicComponent extends Component {
             </div>
           {{/if}}
           <span class="user">
-            {{this.featuredUsername}}
+            ผู้ใช้ {{this.featuredUsername}}
             {{avatar this.featuredUser imageSize="small"}}
           </span>
         </div>
